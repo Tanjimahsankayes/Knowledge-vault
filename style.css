@@ -13,17 +13,36 @@
 }
 
 .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     background-color: #469165;
     border: none;
     border-radius: 4px;
-    padding: 12px 16px;
+    padding: 10px 14px;
     color: white;
     cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    /* background-color: #367C52; */
+    background:transparent;
+    border: 1px solid #469165;
+}
+
+.common-btn:hover {
+    background-color: #367C52;
+    border: none;
+}
+
+.btn img {
+    width: 20px;
+    height: auto;
+    display: inline-block;
 }
 
 /* Main style  */
-
-header {}
 
 nav {
     display: flex;
@@ -47,6 +66,10 @@ nav {
     font-size: 16px;
 }
 
+header .logo-image{
+    cursor: pointer;
+}
+
 #banner {
     background: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
@@ -60,20 +83,26 @@ nav {
     text-align: center;
 }
 
-
-/* problem  */
-
 .banner-content .banner-btn button {
+    display: inline-flex;
+    gap: 8px;
     border-radius: 1000px;
     border: none;
     padding: 8px 12px;
     text-align: center;
     align-items: center;
+    cursor: pointer;
+    font-weight: 500;
 }
 
 .banner-content .banner-btn img {
     padding: 1px;
     border-radius: 10px;
+}
+
+.banner-btn button:hover {
+    color: #fff;
+    background-color: #30B868;
 }
 
 .banner-text h1 {
@@ -95,17 +124,33 @@ nav {
     line-height: 24px;
 }
 
+
+
 .works-btn {
-    background-color: #469165;
-    border: none;
+    display: flex;
+    gap: 5px;
+    background: transparent;
+    border: 1px solid #469165;
     border-radius: 4px;
     padding: 12px 16px;
     color: white;
     cursor: pointer;
+    font-weight: bold;
+}
+
+.works-btn:hover {
+    /* background-color: rgba(255, 255, 255, 0.2); */
+
+    background-color: #469165;
+    border: none;
 }
 
 .banner-button {
-    margin-bottom: 40px;
+    display: flex;
+    padding: 60px 0;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* section-card */
@@ -204,8 +249,12 @@ nav {
     list-style: none;
     font-size: 16px;
 }
+.brain-content .list ul li {
+    display: inline-flex;
+    gap:6px;
+}
 
-#section-think{
+#section-think {
     background-color: #F7F6F2;
     width: 85%;
     margin: 0 auto;
@@ -228,12 +277,12 @@ nav {
 
 /* footer design  */
 
-footer{
+footer {
     background-color: #001931;
     color: white;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     width: 85%;
@@ -241,22 +290,30 @@ footer{
     padding: 100px 50px;
 }
 
-.social-link{
+.social-link {
     font-size: 20px;
 }
-.social-link .icons{
+
+.social-link .icons {
     display: flex;
     gap: 10px;
     margin-top: 10px;
 
 }
-.social-link .icons i{
+
+.social-link .icons i {
     background-color: white;
     border-radius: 100%;
     padding: 3px;
     color: black;
+    cursor: pointer;
 }
-.copyright{
+
+.social-link .icons i:hover {
+    background-color: #469165;
+    color: white;
+}
+.copyright {
     text-align: center;
     padding: 20px;
     color: #FAFAFA;
