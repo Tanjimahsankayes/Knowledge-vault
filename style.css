@@ -319,4 +319,7 @@ footer {
     padding: 20px;
     color: #FAFAFA;
     font-size: 16px;
+    border-top: 1px solid #e5e7eb;
+    width: 85%;
+    margin: 0 auto;
 }
