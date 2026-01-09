@@ -212,6 +212,7 @@ nav {
     padding: 80px;
     text-align: center;
     border-radius: 12px;
+    margin-bottom: 80px;
 }
 
 #section-think h2 {
@@ -223,4 +224,41 @@ nav {
     font-size: 16px;
     color: #627382;
     padding: 20px;
+}
+
+/* footer design  */
+
+footer{
+    background-color: #001931;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    padding: 100px 50px;
+}
+
+.social-link{
+    font-size: 20px;
+}
+.social-link .icons{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+.social-link .icons i{
+    background-color: white;
+    border-radius: 100%;
+    padding: 3px;
+    color: black;
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
+    color: #FAFAFA;
+    font-size: 16px;
 }
