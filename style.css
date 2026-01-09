@@ -204,3 +204,23 @@ nav {
     list-style: none;
     font-size: 16px;
 }
+
+#section-think{
+    background-color: #F7F6F2;
+    width: 85%;
+    margin: 0 auto;
+    padding: 80px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+#section-think h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#section-think p {
+    font-size: 16px;
+    color: #627382;
+    padding: 20px;
+}
