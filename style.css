@@ -150,7 +150,8 @@ nav {
     padding: 24px;
     border-radius: 8px;
 }
-.card-main h4{
+
+.card-main h4 {
     font-size: 22px;
     padding-bottom: 10px;
 }
@@ -158,4 +159,48 @@ nav {
 .card-main p {
     font-size: 14px;
     color: #627382;
+}
+
+#section-brain {
+    display: flex;
+    gap: 40px;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#section-brain .brain-image img {
+    width: 500px;
+    height: 500px;
+}
+
+.brain-content {
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.brain-content h3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #469165;
+    padding-bottom: 12px;
+}
+
+.brain-content h2 {
+    font-size: 48px;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+}
+
+.brain-content p {
+    color: #627382;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.brain-content .list ul {
+    list-style: none;
+    font-size: 16px;
 }
